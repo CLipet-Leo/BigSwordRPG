@@ -13,6 +13,8 @@ namespace BigSwordRPG_C_
             testMusic = new Music();
         }
 
+        ~SelectMenu() {}
+
         public void LoadAndDisplayMenu(List<SelectMenu> options, int selectedIndex = 0)
         {
             Console.SetCursorPosition(0, 8);
