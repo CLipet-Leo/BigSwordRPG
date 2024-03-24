@@ -21,7 +21,6 @@ namespace BigSwordRPG.Assets
             testmap = new MapScene();
         }
 
-
         public override void Draw()
         {
             Console.Clear();
@@ -62,8 +61,6 @@ namespace BigSwordRPG.Assets
             srOption.Dispose();
             srQuitter.Dispose();
         }
-
-        
 
         public override void Update()
         {
